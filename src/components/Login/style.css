@@ -18,7 +18,7 @@ img {
     width: 36%;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(/static/media/bg.3c22d2f2.png);
+    background-image: url(../../assets/bg.png);
 }
 
 .login-container {
@@ -55,7 +55,7 @@ img {
     height: 50px;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url(../../assets/1.png);
+    background-image: url(../../assets/logo-white.png);
 }
 
 .i-heart {
