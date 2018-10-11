@@ -1,0 +1,99 @@
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    height: 100vh;
+}
+
+span {
+    font-family: 'Lato', sans-serif;
+}
+
+img {
+    object-fit: contain;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    width: 36%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/static/media/bg.3c22d2f2.png);
+}
+
+.login-container {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login {
+    width: 58%;
+}
+
+.neighbors-us {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    top: 80%;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    text-align: center;
+}
+
+.logo {
+    position: absolute;
+    top: 179px;
+    width: 200px;
+    height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../../assets/1.png);
+}
+
+.i-heart {
+    width: 25px;
+    height: 24px;
+    display: inline-block;
+    background-size: contain;
+    object-fit: contain;
+    margin: 0 15px 0 15px;
+    background-image: url(../../assets/heart@3x.png)
+}
+
+#okta-sign-in {
+    width: 100%;
+    margin: 0 !important;
+}
+
+#okta-sign-in.auth-container.main-container {
+    border: none;
+}
+
+#okta-sign-in.auth-container .okta-sign-in-header {
+    display: none;
+}
+
+#okta-sign-in.auth-container h2.o-form-head {
+    font-size: 36px;
+    text-align: left;
+}
+
+#okta-sign-in.auth-container .button-primary {
+    background-color: #ff5f73 !important;
+    background: -webkit-linear-gradient(#ff5f73, #ff5f73);
+    border-color: #ff5f73 !important;
+    border: 2px solid red;
+    border-radius: 25px; 
+}
+
+#okta-sign-in.auth-container .button-primary:hover {
+    background: #ff5f73 !important;
+}
